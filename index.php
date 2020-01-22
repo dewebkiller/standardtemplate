@@ -5,7 +5,7 @@
         
         <div class="item">
             <div class="banneroverlay"></div>
-            <img src="images/banner1.jpg">
+            <img src="https://www.dewebkiller.com/standardhtmlimages/banner1.jpg">
             <div class="banner-caption">
                 <h2>The easiest way to book reliable household help</h2>
                 <p>Friendly, experienced cleaners available on your schedule. <br>Just pick a time and we'll do the rest.</p>
@@ -14,7 +14,7 @@
         </div>
         <div class="item">
             <div class="banneroverlay"></div>
-            <img src="images/banner2.jpg">
+            <img src="https://www.dewebkiller.com/standardhtmlimages/banner1.jpg">
             <div class="banner-caption">
                 <h2>The easiest way to book reliable household help</h2>
                 <p>Friendly, experienced cleaners available on your schedule. <br>Just pick a time and we'll do the rest.</p>
