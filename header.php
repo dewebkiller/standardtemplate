@@ -67,7 +67,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                            <div class="logo"><img src="images/logo.png" alt="Business Name"></div>
+                            <div class="logo"><img src="https://www.dewebkiller.com/standardhtmlimages/logo.png" alt="Business Name"></div>
                         </div>
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <div class="main-menu">
