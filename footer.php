@@ -51,7 +51,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="powered">
-                    <a href="https://murphystechnology.com.au" target="_blank" title="Murphys Technology"><img src="images/powered.png" alt="Murphys Technology" /></a>
+                    <a href="https://murphystechnology.com.au" target="_blank" title="Murphys Technology"><img src="https://www.dewebkiller.com/standardhtmlimages/powered.png" alt="Murphys Technology" /></a>
                 </div>
                 <a href="#" class="scrollup"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
             </div>
