@@ -78,14 +78,32 @@
                                     </button>
 
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                        <ul class="navbar-nav mr-auto">
-                                            <li class="nav-item active">
-                                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link" href="#">Link</a>
-                                            </li>
-                                            <li class="nav-item dropdown">
+                                        <ul class="nav navbar-nav">
+                                        <?php
+                                        $url_pages = $_SERVER['REQUEST_URI'];
+                                        $ex_pages = explode("/", $url_pages);
+                                        $curr_page = $ex_pages[count($ex_pages) - 1];
+                                        ?>
+                                        <li <?php
+                                        if (($curr_page == 'index.php') || $curr_page == "") {
+                                            echo "class='active'";
+                                        }
+                                        ?>">
+                                            <a href="./">Home </a>
+                                        </li>
+                                        <li <?php
+                                        if (($curr_page == 'about.php')) {
+                                            echo "class='active'";
+                                        }
+                                        ?>>
+                                            <a href="about.php">About Us </a>
+                                            
+                                        </li>
+                                        <li class="nav-item dropdown <?php
+                                        if (($curr_page == 'gallery.php')) {
+                                            echo "active";
+                                        }
+                                        ?> ">
                                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                     Dropdown
                                                 </a>
@@ -95,8 +113,22 @@
                                                     <a class="dropdown-item hvr-sweep-to-right" href="#">Something else here</a>
                                                 </ul>
                                             </li>
+                                        <li <?php
+                                        if (($curr_page == 'gallery.php')) {
+                                            echo "class='active'";
+                                        }
+                                        ?>>
+                                            <a href="gallery.php">Gallery </a>
+                                        </li>
+                                        <li <?php
+                                        if (($curr_page == 'contact.php')) {
+                                            echo "class='active'";
+                                        }
+                                        ?>>
+                                            <a href="contact.php">Contact Us</a>
+                                        </li>
 
-                                        </ul>
+                                    </ul>
 
                                     </div>
                                 </nav>
