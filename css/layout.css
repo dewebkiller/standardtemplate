@@ -12,12 +12,47 @@ a:hover {
 }
 
 /* General css */
-.primary-color {
+.section-padding {
+    padding: 60px 0;
+}
+.section-padding-bottom {
+    padding-bottom: 60px;
+}
+.section-padding-top {
+    padding-top: 60px;
+}
+.no-padding {
+    padding: 0;
+}
+.no-padding-left {
+    padding-left: 0;
+}
+.no-padding-right {
+    padding-right: 0;
+}
+.color-black {
     color: #000; 
 }
-
-.secondary-color {
+.color-offblack {
     color: #999;
+}
+.color-red {
+    color: #eb062c;
+}
+.color-blue {
+    color: #0066cb;
+}
+.color-white {
+    color: #fff !important;
+}
+.color-green {
+    color: #3ab664;
+}
+.color-green-sharp {
+    color: #00ff18;
+}
+.bg-green {
+    background-color: #3ab664 !important;
 }
 
 /* Header */
