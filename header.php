@@ -91,7 +91,7 @@
                                         ?>">
                                             <a class="nav-link" href="./">Home </a>
                                         </li>
-                                        <li class="nav-item<?php
+                                        <li class="nav-item <?php
                                         if (($curr_page == 'about.php')) {
                                             echo 'active';
                                         }
