@@ -84,19 +84,19 @@
                                         $ex_pages = explode("/", $url_pages);
                                         $curr_page = $ex_pages[count($ex_pages) - 1];
                                         ?>
-                                        <li <?php
+                                        <li class="nav-item <?php
                                         if (($curr_page == 'index.php') || $curr_page == "") {
-                                            echo "class='active'";
+                                            echo 'active';
                                         }
                                         ?>">
-                                            <a href="./">Home </a>
+                                            <a class="nav-link" href="./">Home </a>
                                         </li>
-                                        <li <?php
+                                        <li class="nav-item<?php
                                         if (($curr_page == 'about.php')) {
-                                            echo "class='active'";
+                                            echo 'active';
                                         }
-                                        ?>>
-                                            <a href="about.php">About Us </a>
+                                        ?>">
+                                            <a class="nav-link" href="about.php">About Us </a>
                                             
                                         </li>
                                         <li class="nav-item dropdown <?php
@@ -113,19 +113,19 @@
                                                     <a class="dropdown-item hvr-sweep-to-right" href="#">Something else here</a>
                                                 </ul>
                                             </li>
-                                        <li <?php
+                                        <li class="nav-item <?php
                                         if (($curr_page == 'gallery.php')) {
-                                            echo "class='active'";
+                                            echo 'active';
                                         }
-                                        ?>>
-                                            <a href="gallery.php">Gallery </a>
+                                        ?>">
+                                            <a class="nav-link" href="gallery.php">Gallery </a>
                                         </li>
-                                        <li <?php
+                                        <li class="nav-item <?php
                                         if (($curr_page == 'contact.php')) {
-                                            echo "class='active'";
+                                            echo 'active';
                                         }
-                                        ?>>
-                                            <a href="contact.php">Contact Us</a>
+                                        ?>">
+                                            <a class="nav-link" href="contact.php">Contact Us</a>
                                         </li>
 
                                     </ul>
