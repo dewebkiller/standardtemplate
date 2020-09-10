@@ -29,6 +29,8 @@ $(document).ready(function () {
         });
     });
     $(".fancybox").fancybox();
+    //Add div clearfix after 3 list
+    $("ul.services-ul li:nth-child(3n)").after("<div class='clearfix'></div>")
 });
 if ($(window).width() <= 991) {
     $(".wow").removeClass("wow");
