@@ -1,4 +1,4 @@
-# standardtemplate
+# Bootstrap starter template
 The starter template for the html project.
 
 Fetures:
@@ -7,5 +7,5 @@ Fetures:
 3. Fancybox
 4. Hover.css
 5. Page loader
-6. Bootstrap 4.0
+6. Bootstrap 5.X
 7. Wow animation
