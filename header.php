@@ -19,7 +19,7 @@
         <link href="css/preloader.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     </head>
     <body class="<?php basename($_SERVER['PHP_SELF'], '.php') ?>">
         <div id="loader-wrapper">
