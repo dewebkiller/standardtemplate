@@ -77,7 +77,7 @@
 <script src="js/owl.carousel.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 <script src="https://gitcdn.xyz/repo/thesmart/jquery-scrollspy/0.1.3/scrollspy.js"></script>
 <script src="js/custom.js"></script>
 </body>
