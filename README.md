@@ -9,3 +9,4 @@ Fetures:
 5. Page loader
 6. Bootstrap 5.X
 7. Wow animation
+8. Owl Carousel
