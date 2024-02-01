@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Standard Html">
-        <meta name="keywords" content="Standard Html">
+        <meta name="keywords" content="Bootstrap starter template for php">
         <meta name="author" content="dewebkiller">
         <!-- Bootstrap -->
         <link href="css/bootstrap.css" rel="stylesheet" media="screen">
@@ -17,18 +17,10 @@
         <link href="css/animate.css" rel="stylesheet">
         <link href="css/hover.css" rel="stylesheet">
         <link href="css/preloader.css" rel="stylesheet">
-        <link href="css/responsive.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     </head>
     <body class="<?php basename($_SERVER['PHP_SELF'], '.php') ?>">
-        <div id="loader-wrapper">
-            <div id="loader"></div>
-
-            <div class="loader-section section-left"></div>
-            <div class="loader-section section-right"></div>
-
-        </div>
         <header>
             <section class="top-header">
                 <div class="container">
