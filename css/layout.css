@@ -1,4 +1,17 @@
 /*Variables */
+:root{
+--primarycolor: #fefefe;
+--secondarycolor: #3498db;
+--tertiarycolor:  #2c3e50;
+--primaryoff:  #dcdde1;
+--purewhite: #fff;
+--pureblack: #000;
+--whitecolor: #fff;
+--blackcolor: #eee;
+--gradientstart: #76b852;
+--gradientend:  #4caf50;
+--acentcolor: #ffeb3b;
+}
 /* Rest */
 img {
     max-width: 100%;

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Standard Html</title>
+        <title>Bootstrap Starter Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Standard Html">
-        <meta name="keywords" content="Bootstrap starter template for php">
+        <meta name="description" content="Bootstrap starter template">
+        <meta name="keywords" content="Bootstrap starter template, Starter template, Animate on scroll library, Hover CSS, Fontawesome implementation, Owl Carousel">
         <meta name="author" content="dewebkiller">
         <!-- Bootstrap -->
-        <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/reset.css" rel="stylesheet">
         <link href="css/layout.css" rel="stylesheet">
         <link href="css/owl.carousel.css" rel="stylesheet">
@@ -16,7 +16,7 @@
         <link href="css/font-awesome.css" rel="stylesheet"> 
         <link href="css/animate.css" rel="stylesheet">
         <link href="css/hover.css" rel="stylesheet">
-        <link href="css/preloader.css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     </head>

@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    AOS.init();
 //Hover Menu Dropdown in Bootstrap
     jQuery('ul.navbar-nav li.dropdown').hover(function () {
         jQuery(this).find('.dropdown-menu').stop(true, true).show();
@@ -22,34 +23,10 @@ $(document).ready(function () {
         }, 600);
         return false;
     });
-
-    $(".slide-toggle").click(function () {
-        $(".box").animate({
-            width: "toggle"
-        });
-    });
     $(".fancybox").fancybox();
     //Add div clearfix after 3 list
     $("ul.services-ul li:nth-child(3n)").after("<div class='clearfix'></div>")
 });
-if ($(window).width() <= 991) {
-    $(".wow").removeClass("wow");
-}
-$(window).load(function () {
-    var wow = new WOW({
-        boxClass: 'wow',
-        animateClass: 'animated',
-        offset: 0,
-        mobile: off,
-        live: true
-    });
-    wow.init();
-});
-
-// Init WOW.js and get instance
-var wow = new WOW();
-wow.init();
-
 // Banner
 $('.owl-carousel').owlCarousel({
     loop: true,
@@ -76,15 +53,6 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-$(document).ready(function () {
-
-    setTimeout(function () {
-        $('body').addClass('loaded');
-        //$('h1').css('color','#222222');
-    }, 3000);
-
-});
-$('body').toggleClass('loaded');
 
 // Fixed menu
 $("header").waypoint(function () {
