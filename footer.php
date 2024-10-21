@@ -46,12 +46,12 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="copyright">
-                    <p>&copy; <?php echo date('Y');?>. <span>Business Name.</span> All Rights Reserved.</p>
+                    <p class="color-white">&copy; <?php echo date('Y');?>. <span>Business Name.</span> All Rights Reserved.</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="powered">
-                    <a href="https://murphystechnology.com.au" target="_blank" title="Murphys Technology"><img src="https://www.dewebkiller.com/standardhtmlimages/powered.png" alt="Murphys Technology" /></a>
+                    <a href="https://dewebkiller.com" target="_blank" title="dewebkiller" class="colo-white">&lt;dewebkiller /&gt;</a>
                 </div>
                 <a href="#" class="scrollup"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
             </div>

@@ -6,19 +6,25 @@
 --primaryoff:  #dcdde1;
 --purewhite: #fff;
 --pureblack: #000;
---whitecolor: #fff;
---blackcolor: #eee;
---gradientstart: #76b852;
---gradientend:  #4caf50;
+--whitecolor: #fefefe;
+--blackcolor: #202020;
+--colorgreen: #76b852;
 --acentcolor: #ffeb3b;
+--colorblue: #0066cb;
+--colorred: #eb062c;
+--sectionpadding: 60px
 }
 /* Rest */
+body {
+    font-family: "Poppins", sans-serif;
+}
 img {
     max-width: 100%;
-    height: auto; }
+    height: auto; 
+}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif; 
+    font-family: "Poppins", sans-serif;
 }
 a:hover {
     text-decoration: none;
@@ -26,13 +32,13 @@ a:hover {
 
 /* General css */
 .section-padding {
-    padding: 60px 0;
+    padding: var(--sectionpadding) 0;
 }
 .section-padding-bottom {
-    padding-bottom: 60px;
+    padding-bottom: var(--sectionpadding);
 }
 .section-padding-top {
-    padding-top: 60px;
+    padding-top: var(--sectionpadding);
 }
 .no-padding {
     padding: 0;
@@ -50,22 +56,20 @@ a:hover {
     color: #999;
 }
 .color-red {
-    color: #eb062c;
+    color: var(--colorred);
 }
 .color-blue {
-    color: #0066cb;
+    color: var(--colorblue);
 }
 .color-white {
     color: #fff !important;
 }
 .color-green {
-    color: #3ab664;
+    color: var(--colorgreen);
 }
-.color-green-sharp {
-    color: #00ff18;
-}
+
 .bg-green {
-    background-color: #3ab664 !important;
+    background-color: var(--colorgreen) !important;
 }
 .spacer-10 {
     height: 10px;
